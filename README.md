@@ -20,7 +20,7 @@ Este sistema gerencia setores de garagem, vagas de estacionamento e sessões de 
 ### Passos
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/garage-management.git
+git clone https://github.com/victorsilva95/garage-management.git
 cd garage-management
 ```
 2. Suba o docker compose:
