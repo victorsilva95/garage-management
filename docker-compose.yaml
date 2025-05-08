@@ -1,0 +1,9 @@
+services:
+  postgres:
+    container_name: 'garage-management-postgres'
+    image: 'postgres:12-alpine'
+    environment:
+      - 'POSTGRES_PASSWORD=postgres'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432:5432'
